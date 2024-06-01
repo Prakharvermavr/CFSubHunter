@@ -1,0 +1,20 @@
+Python Dependencies
+cfscrape
+
+Non-Python Tools
+These tools need to be installed separately and are not installed via pip.
+
+Install amass
+Ubuntu/Debian:
+sudo apt-get install amass
+macOS (using Homebrew):
+brew install amass
+
+Install sublist3r
+git clone https://github.com/aboul3la/Sublist3r.git
+cd Sublist3r
+sudo pip install -r requirements.txt
+sudo python setup.py install
+
+Install httpx
+https://github.com/projectdiscovery/httpx
